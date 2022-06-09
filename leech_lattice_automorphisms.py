@@ -75,9 +75,9 @@ class LeechLatticeAutomorphism:
         i = 1
         s = ''
         d = {}
-        R, t = PowerSeriesRing(QQ, 't', 1000).objgen()
+        R, t = PowerSeriesRing(QQ, 't', 100).objgen()
         f = (R([round(x) for x in f.list()])).log()
-        while f and i <= 1000:
+        while f and i <= 100:
             h = (1 - t**i).log()
             n = f[i]
             if n:
