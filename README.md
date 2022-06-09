@@ -28,4 +28,5 @@ outputs the level of $g \in X$: this is the level of the associated eta product 
 outputs the order of $g \in X$: this is the minimal $n \in \mathbb{N}$ for which $g^n$ is the identity.
 
 > g.fixed_lattice()
+> 
 outputs the fixed lattice $\Lambda^g = \{x \in \Lambda: \, gx = x\}$ as a *LeechSubLattice* instance. This has several methods including *gram_matrix()*; *basis_matrix()*; and *orthogonal_projection(v)* which computes the orthogonal projection of a vector $v \in \Lambda$ to $\Lambda^g$. For more details please read the source code.
